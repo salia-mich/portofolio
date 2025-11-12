@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Micheline Salita</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Micheline<span>Salita</span></div>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Salut, je suis <span>Micheline Salita</span></h1>
+      <p>Développeuse & Ingénieure Réseau passionnée par la technologie et l’innovation.</p>
+      <a href="#contact" class="btn">Me contacter</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis une développeuse et ingénieure réseau spécialisée dans la conception, la
+      sécurité et la maintenance des infrastructures informatiques. J’aime résoudre des
+      problèmes complexes, automatiser des tâches et créer des interfaces claires et efficaces.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML / CSS / JavaScript</div>
+      <div class="skill">Python / Node.js</div>
+      <div class="skill">Cisco / Mikrotik / Fortinet</div>
+      <div class="skill">Sécurité Réseau</div>
+      <div class="skill">Cloud & Virtualisation</div>
+      <div class="skill">Automatisation (Ansible, Bash)</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projets récents</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Dashboard Réseau</h3>
+        <p>Création d’un tableau de bord interactif pour surveiller la performance des réseaux.</p>
+      </div>
+      <div class="project-card">
+        <h3>Site Web Portfolio</h3>
+        <p>Développement d’un portfolio personnel responsive et dynamique.</p>
+      </div>
+      <div class="project-card">
+        <h3>Automatisation des sauvegardes</h3>
+        <p>Scripts d’automatisation pour les sauvegardes quotidiennes des configurations réseau.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Votre nom" required />
+      <input type="email" id="email" placeholder="Votre e-mail" required />
+      <textarea id="message" placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+    <p class="status" id="statusMsg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Micheline Salita — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
